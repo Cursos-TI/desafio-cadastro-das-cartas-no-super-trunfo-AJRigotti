@@ -85,6 +85,5 @@ int main () {
     printf("Código da carta: %s \n", codigo2);
 
 
-
     return 0;
 }
