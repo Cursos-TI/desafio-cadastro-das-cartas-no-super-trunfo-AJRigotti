@@ -14,13 +14,13 @@ int main () {
 
 //perguntando as informações da primeira carta para o jogador:
     printf("Qual o nome do estado da primeira carta?\n");
-    scanf("%s", &nome_estado1);
+    scanf("%s", nome_estado1);
 
     printf("Qual o nome da cidade da primeira carta?\n");
-    scanf("%s", &nome_cidade1);
+    scanf("%s", nome_cidade1);
 
     printf("Qual o código cidade da primeira carta?\n");
-    scanf("%s", &codigo1);
+    scanf("%s", codigo1);
 
     printf("Qual população da cidade da primeira carta?\n");
     scanf("%d", &populacao1);
@@ -53,13 +53,13 @@ int main () {
     printf("Agora, digite as informações da segunda carta. \n");
 
     printf("Qual o nome do estado da segunda carta?\n");
-    scanf("%s", &nome_estado2);
+    scanf("%s", nome_estado2);
 
     printf("Qual o nome da cidade da segunda carta?\n");
-    scanf("%s", &nome_cidade2);
+    scanf("%s", nome_cidade2);
 
     printf("Qual o código cidade da segunda carta?\n");
-    scanf("%s", &codigo2);
+    scanf("%s", codigo2);
 
     printf("Qual população da cidade da segunda carta?\n");
     scanf("%d", &populacao2);
