@@ -107,7 +107,7 @@ int main () {
 
 //comparando as cartas e imprimindo na tela
     printf("Agora, vamos comparar as duas cartas!\n");
-    printf("Quando o resultado for 1, significa que a primeira carta venceu, quando for 2, significa que a segunda carta venceu.\n");
+    printf("Quando o resultado for 1, significa que a primeira carta venceu, quando for 0, significa que a segunda carta venceu.\n");
     printf("Comparação das cartas:\n");
     printf("População: %d \n", populacao1 > populacao2);                    //compara se a variavel 1 é maior que a 2 e imprime a mensagem utilizando o resultado
     printf("Área: %d \n", area1 > area2);
